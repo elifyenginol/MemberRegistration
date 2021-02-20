@@ -16,6 +16,7 @@ namespace MemberRegistration.ConsoleUI
             var memberService = InstanceFactory.GetInstance<IMemberService>();
             memberService.Add(new Member
             {
+                TcNo="111111",
                 FirstName = "Zeliha Elif",
                 LastName = "Yenginol",
                 DateOfBirth = new DateTime(1999,1,24),
